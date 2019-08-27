@@ -1,5 +1,6 @@
 ﻿using Certificate.Chapter2.Examples.ClassExample;
 using Certificate.Chapter2.Examples.EnumExample;
+using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,9 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            MyClass<Person> myClass = new MyClass<Person>();
-            myClass.MyGenericMethod<Person>();
+            Person.ExchangeStringWithMethod();
             Console.ReadLine();
         }
     }
 
-    class Person
-    {
-
-    }
 }
