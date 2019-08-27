@@ -12,8 +12,14 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            Nullable<int> nullable = new Chapter2.Examples.ClassExample.MyNullable<int>();
+            MyClass<Person> myClass = new MyClass<Person>();
+            myClass.MyGenericMethod<Person>();
             Console.ReadLine();
         }
+    }
+
+    class Person
+    {
+
     }
 }
