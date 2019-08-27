@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Certificate.Chapter2.Examples.EnumExample;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
+           Console.WriteLine( EnumTest.GetDays());
+            Console.ReadLine();
         }
     }
 }
