@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter2\Examples\ClassExample\ConstructorChaining.cs" />
+    <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +55,7 @@
   <ItemGroup>
     <Folder Include="Chapter1\Examples\" />
     <Folder Include="Chapter1\Other\" />
+    <Folder Include="Chapter2\Examples\StructExample\" />
     <Folder Include="Chapter2\Other\" />
     <Folder Include="Chapter3\Examples\" />
     <Folder Include="Chapter3\Other\" />
