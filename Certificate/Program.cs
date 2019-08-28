@@ -12,14 +12,9 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            MyClass<Person> myClass = new MyClass<Person>();
-            myClass.MyGenericMethod<Person>();
             Console.ReadLine();
         }
     }
 
-    class Person
-    {
-
-    }
+   
 }
