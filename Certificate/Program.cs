@@ -1,4 +1,5 @@
 ﻿using Certificate.Chapter2.Examples.ClassExample;
+using Certificate.Chapter2.Examples.DynamicTypeExample;
 using Certificate.Chapter2.Examples.EnumExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using System;
@@ -13,7 +14,7 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            Person.ExchangeStringWithMethod();
+            SampleObject.Execute();
             Console.ReadLine();
         }
     }

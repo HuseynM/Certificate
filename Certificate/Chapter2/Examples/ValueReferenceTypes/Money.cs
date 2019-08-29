@@ -13,6 +13,7 @@ namespace Certificate.Chapter2.Examples.ValueReferenceTypes
             Amount = amount;
         }
         public decimal Amount { get; set; }
+
         public static implicit operator decimal(Money money)
         {
             return money.Amount;
