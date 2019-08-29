@@ -14,7 +14,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            SampleObject.Execute();
+            Money money = new Money(5m);
+            money.Execute();
             Console.ReadLine();
         }
     }

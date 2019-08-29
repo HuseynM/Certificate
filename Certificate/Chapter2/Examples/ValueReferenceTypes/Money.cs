@@ -22,5 +22,12 @@ namespace Certificate.Chapter2.Examples.ValueReferenceTypes
         {
             return (int)money.Amount;
         }
+
+        public void Execute()
+        {
+            Money money = new Money(5m);
+            decimal d = money;
+            int i = (int)money;
+        }
     }
 }
