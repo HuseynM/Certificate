@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Chapter2\Examples\ClassExample\ConstructorChaining.cs" />
+    <Compile Include="Chapter2\Examples\ClassExample\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
+    <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
+    <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
