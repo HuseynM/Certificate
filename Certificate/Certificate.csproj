@@ -63,6 +63,9 @@
     <Compile Include="Chapter2\Examples\Encapsulation\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IExample.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IReadOnlyInterface.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />

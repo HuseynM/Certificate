@@ -1,6 +1,7 @@
 ﻿using Certificate.Chapter2.Examples.ClassExample;
 using Certificate.Chapter2.Examples.DynamicTypeExample;
 using Certificate.Chapter2.Examples.EnumExample;
+using Certificate.Chapter2.Examples.ImplementingInterfaces;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,9 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            Money money = new Money(5m);
-            money.Execute();
+            IAnimal animal = new Dog();
+
+            Dog dog = (Dog)animal;
             Console.ReadLine();
         }
     }
