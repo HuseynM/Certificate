@@ -15,9 +15,10 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            IAnimal animal = new Dog();
-
-            Dog dog = (Dog)animal;
+            Rectangle rectangle = new Square(100);
+            rectangle.Width = 10;
+            rectangle.Height = 5;
+            Console.WriteLine(rectangle.Area);
             Console.ReadLine();
         }
     }
