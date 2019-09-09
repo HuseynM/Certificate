@@ -1,5 +1,6 @@
 ﻿using Certificate.Chapter2.Examples.AttributeExample;
 using Certificate.Chapter2.Examples.ClassExample;
+using Certificate.Chapter2.Examples.CodeDomExamples;
 using Certificate.Chapter2.Examples.DynamicTypeExample;
 using Certificate.Chapter2.Examples.EnumExample;
 using Certificate.Chapter2.Examples.ImplementingInterfaces;
@@ -16,8 +17,7 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            MyExecute myExecute = new MyExecute();
-            myExecute.GetMethod();
+            CodeDomTest.Execute();
             Console.ReadLine();
         }
     }

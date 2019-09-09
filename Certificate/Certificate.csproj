@@ -59,6 +59,7 @@
     <Compile Include="Chapter2\Examples\ClassExample\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
+    <Compile Include="Chapter2\Examples\CodeDomExamples\CodeDomTest.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\DynamicExample.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\SampleObject.cs" />
     <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
