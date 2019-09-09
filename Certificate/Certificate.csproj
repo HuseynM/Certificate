@@ -54,13 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter2\Examples\AttributeExample\MyPlugin.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\ConstructorChaining.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\DynamicExample.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\SampleObject.cs" />
-    <Compile Include="Chapter2\Examples\Encapsulation\ExplicitInterface.cs" />
+    <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IReadOnlyInterface.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Order.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\OrderComparable.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Rectangle.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />

@@ -14,6 +14,10 @@ namespace Certificate.Chapter2.Examples.ImplementingInterfaces
             if (obj == null) return 1;
 
             OrderComparable order = obj as OrderComparable;
+
+            if (order == null) throw new ArgumentException("Order is not an object");
+
+            return this.Created.CompareTo(order.Created);
         }
     }
 }

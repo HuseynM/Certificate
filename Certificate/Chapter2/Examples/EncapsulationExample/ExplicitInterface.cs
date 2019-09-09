@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Certificate.Chapter2.Examples.Encapsulation
+namespace Certificate.Chapter2.Examples.EncapsulationExample
 {
     public class ExplicitInterface
     {
