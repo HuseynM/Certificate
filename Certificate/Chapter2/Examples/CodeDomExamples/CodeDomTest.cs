@@ -35,6 +35,7 @@ namespace Certificate.Chapter2.Examples.CodeDomExamples
                 new CodeGeneratorOptions());
                 tw.Close();
             }
+
         }
     }
 }

@@ -65,6 +65,7 @@
     <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
+    <Compile Include="Chapter2\Examples\GCExamples\GCTest.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IEntity.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IExample.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
+    <Compile Include="Chapter2\Others\GCExamples\GarbageCollector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,7 +88,6 @@
   <ItemGroup>
     <Folder Include="Chapter1\Examples\" />
     <Folder Include="Chapter1\Other\" />
-    <Folder Include="Chapter2\Other\" />
     <Folder Include="Chapter3\Examples\" />
     <Folder Include="Chapter3\Other\" />
     <Folder Include="Chapter4\Examples\" />
