@@ -18,8 +18,7 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            GCTest.Execute();
-            Console.ReadLine();
+            
         }
     }
 }
