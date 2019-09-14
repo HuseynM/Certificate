@@ -5,6 +5,7 @@ using Certificate.Chapter2.Examples.DynamicTypeExample;
 using Certificate.Chapter2.Examples.EnumExample;
 using Certificate.Chapter2.Examples.GCExamples;
 using Certificate.Chapter2.Examples.ImplementingInterfaces;
+using Certificate.Chapter2.Examples.StringExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,9 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            
+            StringExecuter stringExecuter = new StringExecuter();
+            stringExecuter.Execute();
+            Console.ReadLine();
         }
     }
 }

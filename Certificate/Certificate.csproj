@@ -74,6 +74,7 @@
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Order.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\OrderComparable.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Rectangle.cs" />
+    <Compile Include="Chapter2\Examples\StringExample\StringTest.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
