@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter2\Examples\AccessModifiers\MyBase.cs" />
+    <Compile Include="Chapter2\Examples\AccessModifiers\MyInternalClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\ConstructorChaining.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Certificate.Chapter2.Examples.AccessModifiers
 {
-    class MyInternalClass
+    internal class MyInternalClass
     {
+        public void MyMethod() { }
     }
 }
