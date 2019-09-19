@@ -62,12 +62,15 @@
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
     <Compile Include="Chapter2\Examples\CodeDomExamples\CodeDomTest.cs" />
+    <Compile Include="Chapter2\Examples\CryptographyExample\AsymmetricCryp.cs" />
+    <Compile Include="Chapter2\Examples\CryptographyExample\SymmetricCryp.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\DynamicExample.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\SampleObject.cs" />
     <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
     <Compile Include="Chapter2\Examples\GCExamples\GCTest.cs" />
+    <Compile Include="Chapter2\Examples\HashingExample\Set.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IEntity.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IExample.cs" />
