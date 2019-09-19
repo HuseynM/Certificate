@@ -33,11 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,17 +56,31 @@
   <ItemGroup>
     <Compile Include="Chapter2\Examples\AccessModifiers\MyBase.cs" />
     <Compile Include="Chapter2\Examples\AccessModifiers\MyInternalClass.cs" />
+    <Compile Include="Chapter2\Examples\AttributeExample\MyPlugin.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\ConstructorChaining.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyBase.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
+    <Compile Include="Chapter2\Examples\CodeDomExamples\CodeDomTest.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\DynamicExample.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\SampleObject.cs" />
+    <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
+    <Compile Include="Chapter2\Examples\GCExamples\GCTest.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IEntity.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IExample.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\IReadOnlyInterface.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\MyBase.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\Order.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\OrderComparable.cs" />
+    <Compile Include="Chapter2\Examples\ImplementingInterfaces\Rectangle.cs" />
+    <Compile Include="Chapter2\Examples\StringExample\StringTest.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
+    <Compile Include="Chapter2\Others\GCExamples\GarbageCollector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,7 +91,6 @@
   <ItemGroup>
     <Folder Include="Chapter1\Examples\" />
     <Folder Include="Chapter1\Other\" />
-    <Folder Include="Chapter2\Other\" />
     <Folder Include="Chapter3\Examples\" />
     <Folder Include="Chapter3\Other\" />
     <Folder Include="Chapter4\Examples\" />
