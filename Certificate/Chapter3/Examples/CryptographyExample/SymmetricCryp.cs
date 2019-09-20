@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Certificate.Chapter2.Examples.CryptographyExample
+namespace Certificate.Chapter3.Examples.CryptographyExample
 {
     public class SymmetricCryp
     {

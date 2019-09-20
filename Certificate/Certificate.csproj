@@ -62,15 +62,15 @@
     <Compile Include="Chapter2\Examples\ClassExample\MyClass.cs" />
     <Compile Include="Chapter2\Examples\ClassExample\Nullable.cs" />
     <Compile Include="Chapter2\Examples\CodeDomExamples\CodeDomTest.cs" />
-    <Compile Include="Chapter2\Examples\CryptographyExample\AsymmetricCryp.cs" />
-    <Compile Include="Chapter2\Examples\CryptographyExample\SymmetricCryp.cs" />
+    <Compile Include="Chapter3\Examples\CryptographyExample\AsymmetricCryp.cs" />
+    <Compile Include="Chapter3\Examples\CryptographyExample\SymmetricCryp.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\DynamicExample.cs" />
     <Compile Include="Chapter2\Examples\DynamicTypeExample\SampleObject.cs" />
     <Compile Include="Chapter2\Examples\EncapsulationExample\ExplicitInterface.cs" />
     <Compile Include="Chapter2\Examples\EnumExample\EnumTest.cs" />
     <Compile Include="Chapter2\Examples\ExtensionExample\Product.cs" />
     <Compile Include="Chapter2\Examples\GCExamples\GCTest.cs" />
-    <Compile Include="Chapter2\Examples\HashingExample\Set.cs" />
+    <Compile Include="Chapter3\Examples\HashingExample\Set.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IAnimal.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IEntity.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\IExample.cs" />
@@ -79,6 +79,7 @@
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Order.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\OrderComparable.cs" />
     <Compile Include="Chapter2\Examples\ImplementingInterfaces\Rectangle.cs" />
+    <Compile Include="Chapter3\Examples\SignatureExample\Signature.cs" />
     <Compile Include="Chapter2\Examples\StringExample\StringTest.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Converting.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
@@ -94,7 +95,6 @@
   <ItemGroup>
     <Folder Include="Chapter1\Examples\" />
     <Folder Include="Chapter1\Other\" />
-    <Folder Include="Chapter3\Examples\" />
     <Folder Include="Chapter3\Other\" />
     <Folder Include="Chapter4\Examples\" />
     <Folder Include="Chapter4\Other\" />

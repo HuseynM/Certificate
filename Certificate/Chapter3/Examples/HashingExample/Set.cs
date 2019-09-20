@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Certificate.Chapter2.Examples.HashingExample
+namespace Certificate.Chapter3.Examples.HashingExample
 {
     public class Set<T>
     {
