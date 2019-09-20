@@ -7,6 +7,7 @@ using Certificate.Chapter2.Examples.GCExamples;
 using Certificate.Chapter2.Examples.ImplementingInterfaces;
 using Certificate.Chapter2.Examples.StringExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
+using Certificate.Chapter3.Examples.SecureStringExample;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
+            SecureStringTest test=new SecureStringTest();
+            test.Execute();
             Console.ReadLine();
         }
     }
