@@ -86,6 +86,7 @@
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
     <Compile Include="Chapter2\Others\GCExamples\GarbageCollector.cs" />
+    <Compile Include="Chapter4\Examples\DriveInfoExamples\DriveInfoTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -97,7 +98,6 @@
     <Folder Include="Chapter1\Examples\" />
     <Folder Include="Chapter1\Other\" />
     <Folder Include="Chapter3\Other\" />
-    <Folder Include="Chapter4\Examples\" />
     <Folder Include="Chapter4\Other\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
