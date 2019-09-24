@@ -11,6 +11,7 @@ using Certificate.Chapter3.Examples.SecureStringExample;
 using Certificate.Chapter4.Examples.IOExample;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,10 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            StreamTest.StreamWrite();
+            using (StreamReader streamWriter = File.OpenText(@"D:\Books\test.txt"))
+            {
+                Console.WriteLine(streamWriter.ReadLine()); // Displays: MyValue
+            }
             Console.ReadLine();
         }
     }

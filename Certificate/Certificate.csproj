@@ -86,6 +86,7 @@
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Money.cs" />
     <Compile Include="Chapter2\Examples\ValueReferenceTypes\Person.cs" />
     <Compile Include="Chapter2\Others\GCExamples\GarbageCollector.cs" />
+    <Compile Include="Chapter4\Examples\IOExample\EncodingTest.cs" />
     <Compile Include="Chapter4\Examples\IOExample\IOTest.cs" />
     <Compile Include="Chapter4\Examples\IOExample\StreamTest.cs" />
     <Compile Include="Program.cs" />
