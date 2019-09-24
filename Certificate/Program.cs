@@ -21,7 +21,7 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            IOTest.GetFiles();
+            StreamTest.StreamWrite();
             Console.ReadLine();
         }
     }
