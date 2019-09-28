@@ -8,10 +8,10 @@ using Certificate.Chapter2.Examples.ImplementingInterfaces;
 using Certificate.Chapter2.Examples.StringExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using Certificate.Chapter3.Examples.SecureStringExample;
-using Certificate.Chapter4.Examples.AdoNetExample;
 using Certificate.Chapter4.Examples.IOExample;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,10 +20,12 @@ namespace Certificate
 {
     class Program
     {
-        static  void Main(string[] args)
+        static void Main(string[] args)
         {
-            DatabaseTest database = new DatabaseTest();
-            database.Select();
+            using (StreamReader streamWriter = File.OpenText(@"D:\Books\test.txt"))
+            {
+                Console.WriteLine(streamWriter.ReadLine()); // Displays: MyValue
+            }
             Console.ReadLine();
         }
     }
