@@ -9,6 +9,7 @@ using Certificate.Chapter2.Examples.StringExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using Certificate.Chapter3.Examples.SecureStringExample;
 using Certificate.Chapter4.Examples.IOExample;
+using Certificate.Chapter4.Examples.XmlExample;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,10 +23,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            using (StreamReader streamWriter = File.OpenText(@"D:\Books\test.txt"))
-            {
-                Console.WriteLine(streamWriter.ReadLine()); // Displays: MyValue
-            }
+            XmlTest xmlTest = new XmlTest();
+            xmlTest.Document();
             Console.ReadLine();
         }
     }
