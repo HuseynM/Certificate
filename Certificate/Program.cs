@@ -9,6 +9,7 @@ using Certificate.Chapter2.Examples.StringExample;
 using Certificate.Chapter2.Examples.ValueReferenceTypes;
 using Certificate.Chapter3.Examples.SecureStringExample;
 using Certificate.Chapter4.Examples.IOExample;
+using Certificate.Chapter4.Examples.LinqExample;
 using Certificate.Chapter4.Examples.XmlExample;
 using System;
 using System.Collections.Generic;
@@ -23,8 +24,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            XmlTest xmlTest = new XmlTest();
-            xmlTest.Document();
+            AnonymousType anonymousType = new AnonymousType();
+            anonymousType.Execute();
             Console.ReadLine();
         }
     }
