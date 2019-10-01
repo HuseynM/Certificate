@@ -95,6 +95,7 @@
     <Compile Include="Chapter4\Examples\LinqExample\AnonymousType.cs" />
     <Compile Include="Chapter4\Examples\LinqExample\Extension.cs" />
     <Compile Include="Chapter4\Examples\LinqExample\Lambda.cs" />
+    <Compile Include="Chapter4\Examples\LinqExample\LinqQuery.cs" />
     <Compile Include="Chapter4\Examples\XmlExample\XmlTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

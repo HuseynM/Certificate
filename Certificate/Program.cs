@@ -24,8 +24,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            AnonymousType anonymousType = new AnonymousType();
-            anonymousType.Execute();
+            LinqQuery linqQuery = new LinqQuery();
+            linqQuery.Paging(3, 2);
             Console.ReadLine();
         }
     }
