@@ -79,7 +79,6 @@ namespace Certificate.Chapter4.Examples.SerializationEzample
                 Person2 dp = (Person2)formatter.Deserialize(stream);
             }
         }
-
         public static void DataContractSerialize()
         {
             PersonDataContract p = new PersonDataContract

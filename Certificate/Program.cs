@@ -1,5 +1,6 @@
 ﻿using Certificate.Chapter4.Examples.SerializationEzample;
 using System;
+using System.Collections.Generic;
 
 namespace Certificate
 {
@@ -7,7 +8,16 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            Serializer.DataContractSerialize();
+            HashSet<int> set = new HashSet<int>();
+
+            for (int i = 0; i < 10; i++)
+            {
+                set.Add(i);
+            }
+            foreach (var s in set)
+            {
+            Console.WriteLine(s);
+            }
             Console.ReadLine();
         }
     }
