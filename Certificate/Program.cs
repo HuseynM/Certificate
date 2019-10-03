@@ -25,7 +25,7 @@ namespace Certificate
         static void Main(string[] args)
         {
             LinqQuery linqQuery = new LinqQuery();
-            linqQuery.Paging(3, 2);
+            linqQuery.LinqToXml();
             Console.ReadLine();
         }
     }
