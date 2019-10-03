@@ -7,7 +7,7 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            Serializer.Serialize();
+            Serializer.DataContractSerialize();
             Console.ReadLine();
         }
     }
