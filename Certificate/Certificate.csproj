@@ -57,6 +57,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter1\Examples\ThreadExamples\ThreadTest.cs" />
+    <Compile Include="Chapter1\Other\ThreadTest.cs" />
     <Compile Include="Chapter2\Examples\AccessModifiers\MyBase.cs" />
     <Compile Include="Chapter2\Examples\AccessModifiers\MyInternalClass.cs" />
     <Compile Include="Chapter2\Examples\AttributeExample\MyPlugin.cs" />
@@ -107,8 +109,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Chapter1\Examples\" />
-    <Folder Include="Chapter1\Other\" />
     <Folder Include="Chapter3\Other\" />
     <Folder Include="Chapter4\Other\" />
   </ItemGroup>

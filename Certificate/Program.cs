@@ -1,6 +1,6 @@
-﻿using Certificate.Chapter4.Examples.SerializationEzample;
+﻿using Certificate.Chapter1.Examples.ThreadExamples;
 using System;
-using System.Collections.Generic;
+using System.Threading;
 
 namespace Certificate
 {
@@ -8,17 +8,8 @@ namespace Certificate
     {
         static void Main(string[] args)
         {
-            HashSet<int> set = new HashSet<int>();
-
-            for (int i = 0; i < 10; i++)
-            {
-                set.Add(i);
-            }
-            foreach (var s in set)
-            {
-            Console.WriteLine(s);
-            }
-            Console.ReadLine();
+            ThreadTest.Execute4();
+            Console.ReadKey();
         }
     }
 }
